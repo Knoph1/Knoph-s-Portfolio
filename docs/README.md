@@ -1,17 +1,19 @@
-# 🚀 Knoph Oluoch Ayieko | Personal Portfolio
+# 🚀 Knoph O.L A. | Personal Portfolio
 
-Welcome to my personal web portfolio! This project showcases my journey as a **Software Developer** and **Web Designer** — highlighting my skills, projects, and ambitions.
+Welcome to my personal web portfolio!
+
+This project showcases my journey as a **Web Developer** and **IT Specialist** — highlighting my skills, projects and ambitions.
 
 ## 🌐 Live Demo
-Check out the live site here: [knopholuoch.github.io](https://knopholuoch.github.io/)
+Check out the live site here: [knoph's portfolio](https://knoph1.github.io/Knoph-s-Portfolio/)
 
 ---
 
 ## 📚 About Me
 
-I'm **Knoph Oluoch Ayieko** — a passionate **Software Developer** with a **BSc. in IT** from the University of Kabianga and certifications in **Back-End Development** from ALX Africa. 
+I'm **Knoph O.L A.** — a passionate **Web Developer** with a **BSc. in IT** from the University of Kabianga and certifications in **Back-End Development** and **Front-End Development** from ALX Africa. 
 
-I am on a continuous journey of growth in **Full-Stack Web Development** and have a keen interest in **research, teaching**, and **mentorship**.
+I am on a continuous journey of growth in **Full-Stack Web Development** and have a keen interest in **research, teaching** and **mentorship**.
 
 ---
 
@@ -20,17 +22,19 @@ I am on a continuous journey of growth in **Full-Stack Web Development** and hav
 - **Responsive Design** — optimized for all screen sizes.
 - **Dark/Light Mode Toggle** — for accessibility and user preference.
 - **Smooth Animations & Transitions** — enhancing user experience.
+- Pre-loader & page transitions
 - **Interactive Contact Form** — powered by Formspree.
+- Contact form integration
 - **SEO Optimized** — schema markup for better search visibility.
 
 ---
 
 ## 📁 Pages
 
-- **Home** — Introduction, ambitions, and hobbies.
-- **About Me** — Background, work experience, and qualifications.
+- **Home** — Introduction, ambitions and hobbies.
+- **About Me** — Background, work experience and qualifications.
 - **Projects** — Showcase of life’s work — from complex to simple projects.
-- **Contact Me** — Socials, email form, and professional links.
+- **Contact Me** — Socials, email form and professional links.
 
 ---
 
@@ -44,13 +48,25 @@ I am on a continuous journey of growth in **Full-Stack Web Development** and hav
 
 ---
 
+## 📦 Installation
+
+```bash
+# Clone this repository
+git clone https://github.com/Knoph1/Knoph-s-Portfolio.git
+
+# Open the index.html file in your browser
+
+```
+
+<!-- content continuation -->
+
 ## 📬 Contact
 
 You can reach me via:
 
-- 📧 Email: [knopholuoch@gmail.com](mailto:knopholuoch@gmail.com)  
-- 🐦 GitHub: [github.com/knopholuoch](https://github.com/knopholuoch)  
-- 💼 LinkedIn: [linkedin.com/in/knopholuoch](https://www.linkedin.com/in/knopholuoch)
+- 📧 Email: [knophayieko@gmail.com](mailto:knophayieko@gmail.com)  
+- 🐦 GitHub: [github.com/knoph1](https://github.com/knoph1)  
+- 💼 LinkedIn: [linkedin.com/in/knophayieko](https://www.linkedin.com/in/knophayieko)
 
 ---
 
@@ -70,23 +86,3 @@ Contributions are welcome! If you'd like to improve the design, suggest new feat
 This project is licensed under the [MIT License](LICENSE).
 
 © 2025 Knoph Oluoch Ayieko. All Rights Reserved.
-
-# Knoph Oluoch Portfolio
-
-## 🌐 Live Demo
-Visit my portfolio: [View Here](https://yourusername.github.io/repo-name/)
-
-## 🚀 Features
-- Responsive design (desktop & mobile)
-- Dark/Light mode switch
-- Smooth animations & transitions
-- Contact form integration
-- Pre-loader & page transitions
-
-## 📦 Installation
-
-```bash
-# Clone this repository
-git clone https://github.com/yourusername/repo-name.git
-
-# Open the index.html file in your browser

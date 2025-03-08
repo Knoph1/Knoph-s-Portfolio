@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deployment Guide - Knoph's Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Deployment Guide</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About Me</a></li>
+                    <li><a href="pages/projects.html">Projects</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="deployment.html">Deployment</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content">
+        <h2>How to Deploy This Portfolio</h2>
+        <p>Follow these steps to deploy this portfolio to GitHub Pages:</p>
+        <ol>
+            <li>Initialize a Git repository:</li>
+            <pre><code>git init</code></pre>
+
+            <li>Add all files to the repository:</li>
+            <pre><code>git add .</code></pre>
+
+            <li>Commit the changes:</li>
+            <pre><code>git commit -m "Initial commit"</code></pre>
+
+            <li>Add the remote origin (replace with your repo URL):</li>
+            <pre><code>git remote add origin https://github.com/Knoph1/Knoph-s-Portfolio.git</code></pre>
+
+            <li>Push the code to GitHub:</li>
+            <pre><code>git push -u origin main</code></pre>
+
+            <li>Enable GitHub Pages:</li>
+            <ul>
+                <li>Go to your repository on GitHub.</li>
+                <li>Click on "Settings".</li>
+                <li>Scroll down to "GitHub Pages".</li>
+                <li>Select the "main" branch and save.</li>
+            </ul>
+        </ol>
+
+        <p>Your site should now be live at:</p>
+        <a href="https://knoph1.github.io/Knoph-s-Portfolio" target="_blank">View Portfolio</a>
+    </section>
+
+    <footer>
+        <p>© Knoph O.L A. | All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

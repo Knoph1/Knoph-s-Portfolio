@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Page Not Found</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Poppins', sans-serif;
             background: #0f0c29;
@@ -26,13 +25,11 @@
             overflow: hidden;
             position: relative;
         }
-
         .container {
             max-width: 600px;
             z-index: 2;
             animation: fadeIn 2s ease-in-out;
         }
-
         h1 {
             font-size: 10rem;
             font-weight: 900;
@@ -43,12 +40,10 @@
             position: relative;
             animation: glitch 1s infinite;
         }
-
         p {
             font-size: 1.8rem;
             margin-bottom: 20px;
         }
-
         .typing {
             overflow: hidden;
             white-space: nowrap;
@@ -57,7 +52,6 @@
             font-size: 1.5rem;
             animation: typing 4s steps(40, end) forwards, blink 0.7s step-end infinite;
         }
-
         a {
             display: inline-block;
             padding: 12px 30px;
@@ -70,12 +64,10 @@
             transition: all 0.3s ease;
             margin-top: 20px;
         }
-
         a:hover {
             background: #ff4b2b;
             transform: scale(1.1);
         }
-
         @keyframes glitch {
             0% { text-shadow: 4px 4px #ff416c, -4px -4px #ff4b2b; }
             25% { text-shadow: -4px -4px #ff416c, 4px 4px #ff4b2b; }
@@ -83,17 +75,14 @@
             75% { text-shadow: -4px 4px #ff416c, 4px -4px #ff4b2b; }
             100% { text-shadow: 4px 4px #ff416c, -4px -4px #ff4b2b; }
         }
-
         @keyframes typing {
             from { width: 0; }
             to { width: 100%; }
         }
-
         @keyframes blink {
             from, to { border-color: transparent; }
             50% { border-color: #ff416c; }
         }
-
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -118,7 +107,6 @@
                 opacity: 0;
             }
         }
-
         .star:hover {
             transform: scale(1.8);
             opacity: 1;
