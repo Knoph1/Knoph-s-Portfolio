@@ -9,28 +9,37 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/images/Profile/Knoph O.L Ayieko.jpg" alt="Knoph's Logo" class="profile-pic">
+            </div>
             <h1>Knoph's Portfolio</h1>
-            <nav>
-                <ul>
+            <nav class="navbar">
+                <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="pages/about.html">About Me</a></li>
                     <li><a href="pages/projects.html">Projects</a></li>
                     <li><a href="pages/contact.html">Contact</a></li>
                 </ul>
+                <button class="toggle-btn" id="theme-toggle">Light/Dark Mode</button>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
-        <h2>Welcome!</h2>
-        <p>Hello, I'm Knoph O.L A., a Web Developer, aspiring IT Lecturer and passionate about technology, research and innovation.</p>
-        <p>Explore my world — my ambitions, hobbies and dreams — all in one place.</p>
+    <section id="home" class="hero">
+        <div class="container">
+            <h3>Hi, Hello!</h3>
+            <p>It's <strong>Knoph O.L A.</strong> here<br>Web developer | IT Consultant | certified Virtual Assistant</p>
+            <p>Quite passionate about technology, research and innovation.<br>Explore my world — my ambitions, hobbies and dreams — all in one place.</p>
+            <a href="pages/projects.html" class="btn">View My Projects</a>
+        </div>
     </section>
 
     <footer>
-        <p>© 10th March, 2025 | Knoph O.L A. | All Rights Reserved.</p>
-        <p><a href="pages/deployment.html">GitHub Pages - Deployment</a></p>
+        <div class="container">
+            <p>&copy; 10th March, 2025 | Knoph O.L A. | All Rights Reserved.</p>
+            <a href="https://github.com/knoph1" target="_blank">My GitHub Profile</a>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,234 @@
+/* General Reset */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+  background: #004080;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+}
+
+main {
+  margin-top: 120px; /* to account for the fixed header */
+  padding-bottom: 60px; /* to account for the fixed footer */
+}
+
+/* Navigation Bar */
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #4da8da;
+  text-decoration: underline;
+}
+
+/* Light/Dark Mode Button */
+.toggle-btn {
+  background-color: white;
+  color: #004080;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #ccc;
+  color: #00264d;
+}
+
+/* Image Section */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #0073e6;
+}
+
+/* Contact Me Section */
+.contact-me {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.contact-me h2 {
+  font-size: 2.5rem;
+  color: #004080;
+  margin-bottom: 20px;
+}
+
+.contact-me p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Form Section */
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.contact-form p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form label {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.contact-form button:hover {
+  background-color: #005bb5;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+  font-size: 1rem;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer a {
+  color: #4da8da;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 40px;
+  }
+
+  .image-section {
+      margin-right: 40px;
+  }
+
+  .profile-img {
+      width: 300px;
+      height: auto;
+  }
+
+  .contact-form {
+      flex: 1;
+  }
+}

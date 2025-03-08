@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knoph's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding-bottom: 2rem;
+        }
+        header {
+            background: linear-gradient(135deg, #0044cc, #0077ff);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .hero {
+            background: #0077ff;
+            color: #fff;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            padding: 0.75rem 2rem;
+            background: #ffcc00;
+            color: #333;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #ffaa00;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Knoph's Portfolio</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome!</h1>
+        <p>Hello, I'm Knoph O.L.A., a Web Developer, aspiring IT Lecturer, and passionate about technology, research, and innovation. Explore my world — my ambitions, hobbies, and dreams — all in one place.</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </section>
+
+    <footer>
+        <p>&copy; 10th March, 2025 | Knoph O.L.A. | All Rights Reserved.</p>
+        <p><a href="#">GitHub Pages - Deployment</a></p>
+    </footer>
+</body>
+</html>
+
+......................................
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knoph's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding-bottom: 2rem;
+        }
+        header {
+            background: linear-gradient(135deg, #0044cc, #0077ff);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .hero {
+            background: #0077ff;
+            color: #fff;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            padding: 0.75rem 2rem;
+            background: #ffcc00;
+            color: #333;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #ffaa00;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Knoph's Portfolio</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome!</h1>
+        <p>Hello, I'm Knoph O.L.A., a Web Developer, aspiring IT Lecturer, and passionate about technology, research, and innovation. Explore my world — my ambitions, hobbies, and dreams — all in one place.</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </section>
+
+    <footer>
+        <p>&copy; 10th March, 2025 | Knoph O.L.A. | All Rights Reserved.</p>
+        <p><a href="#">GitHub Pages - Deployment</a></p>
+    </footer>
+</body>
+</html>
+
+......................................

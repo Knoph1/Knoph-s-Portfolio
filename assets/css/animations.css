@@ -1,72 +1,70 @@
-/* General Animations */
+/* General Animation Settings */
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Logo Animation */
+.logo img {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Header Animation */
+header {
+  animation: slideDown 1s ease-in-out;
+}
+
+/* Navigation Links Hover Effect */
+.nav-links li a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+/* Button Hover Effect */
+.toggle-btn:hover, .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Section Fade-in Animation */
+.hero h2, .hero p, .hero a {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Footer Animation */
+footer {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Keyframes */
+
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from {
+      opacity: 0;
   }
-  
-  @keyframes slideInFromLeft {
-    from { transform: translateX(-100%); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
+  to {
+      opacity: 1;
   }
-  
-  @keyframes slideInFromRight {
-    from { transform: translateX(100%); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideDown {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
   }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-    40% { transform: translateY(-30px); }
-    60% { transform: translateY(-15px); }
+  to {
+      transform: translateY(0);
+      opacity: 1;
   }
-  
-  /* Apply Animations */
-  .fade-in {
-    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+      transform: translateY(30px);
+      opacity: 0;
   }
-  
-  .slide-in-left {
-    animation: slideInFromLeft 1s ease-out;
+  to {
+      transform: translateY(0);
+      opacity: 1;
   }
-  
-  .slide-in-right {
-    animation: slideInFromRight 1s ease-out;
-  }
-  
-  .bounce {
-    animation: bounce 2s infinite;
-  }
-  
-  /* Button Hover Effects */
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-  }
-  
-  button:hover {
-    animation: pulse 0.5s ease-in-out;
-  }
-  
-  /* Dark-Light Mode Switch Animation */
-  @keyframes rotateFade {
-    from { transform: rotate(0deg); opacity: 0.5; }
-    to { transform: rotate(360deg); opacity: 1; }
-  }
-  
-  .mode-switch {
-    display: inline-block;
-    cursor: pointer;
-    animation: rotateFade 1s ease-in-out;
-  }
-  
-  /* Page Load Animation */
-  .page-load {
-    animation: fadeIn 1.5s ease-in-out, slideInFromLeft 1.5s ease-in-out;
-  }
-  
-  /* Heading Animation */
-  .heading-animate {
-    animation: bounce 2s infinite;
-  }
-  
+}

@@ -1,42 +1,65 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me - Knoph O.L A.</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/animation.css">
-</head>
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+</head> 
 <body>
     <header>
-        <h1>Contact Me</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="../assets/images/Profile/Knoph%20O.L%20Ayieko.jpg" alt="Knoph's Logo" class="profile-pic">
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact Me</a></li>
+                </ul>
+                <button class="toggle-btn" id="theme-toggle">Light/Dark Mode</button>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="contact">
-            <h2>Get In Touch</h2>
-            <form action="contact.php" method="POST">
+
+    <section class="contact-container">
+        <h1>Contact Me</h1>
+        <p>I'd love to connect with you.<br>Whether it's a project, a question, or just to say hi.<br>Humbly, feel free to drop me a message below!</p>
+
+        <!-- Adjusted form action path -->
+        <form action="../pages/contact-form.php" method="POST" id="contact-form" class="contact-form">
+            <div class="form-group">
                 <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required>
-                
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
                 <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" required>
-                
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
                 <label for="message">Your Message</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div id="form-response"></div> <!-- Placeholder for response messages -->
+    </section>
+
     <footer>
-        <p>© 2025 | Knoph O.L A. | All Rights Reserved.</p>
-        <p>GitHub Pages - Deployment</p>
+        <div class="container">
+            <p>&copy; 10th March, 2025 | Knoph O.L A. | All Rights Reserved.</p>
+            <a href="https://github.com/knoph1" target="_blank">My GitHub Profile</a>
+        </div>
     </footer>
+
+    <!-- Ensure the JS path is correct -->
+    <script src="../assets/js/form.js"></script>
 </body>
 </html>
