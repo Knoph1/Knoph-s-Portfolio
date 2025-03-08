@@ -1,91 +1,36 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knoph Oluoch Ayieko - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="loader"></div>
-    </div>
-
-    <!-- Header -->
-    <header class="header">
-        <div class="logo">
-            <img src="profile.jpg" alt="Knoph Oluoch Ayieko">
+    <header>
+        <div class="container">
             <h1>Knoph Oluoch Ayieko</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger" onclick="toggleMenu()">☰</div>
-            <button id="theme-toggle">Light Mode</button>
-        </nav>
     </header>
 
-    <!-- Home Page with Parallax -->
-    <section id="home" class="parallax">
-        <div class="content">
-            <h2>Welcome!</h2>
-            <p>Hello, I'm <strong>Knoph Oluoch Ayieko</strong>, a Web Developer, aspiring IT Lecturer, and passionate about technology, research, and innovation.</p>
-            <p>Explore my world — my ambitions, hobbies, and dreams — all in one place.</p>
-        </div>
+    <section class="hero">
+        <h2>Welcome!</h2>
+        <p>Hello, I'm Knoph Oluoch Ayieko, a Web Developer, aspiring IT Lecturer, and passionate about technology, research, and innovation.</p>
+        <p>Explore my world — my ambitions, hobbies, and dreams — all in one place.</p>
     </section>
 
-    <!-- About Me -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p><strong>Brief History & Profile:</strong> An IT graduate from the University of Kabianga, certified in Web Development (ALX Africa), and an ex-HealthIT Intern at UNES Ltd.</p>
-        <p><strong>Academic Qualifications:</strong> BSc. IT, Web Development Certifications</p>
-        <p><strong>Certifications & Professional Membership:</strong> Virtual Assistant (ALX Africa), AiCE (ALX Africa)</p>
-    </section>
-
-    <!-- Project Slider -->
-    <section id="projects" class="section">
-        <h2>My Projects</h2>
-        <div class="slider">
-            <div class="slides">
-                <div class="project-card">
-                    <h3>Ashker Credit Solutions MVP</h3>
-                    <p>An innovative credit platform for Ethiopian startups.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Portfolio Website</h3>
-                    <p>A showcase of my professional journey and skills.</p>
-                </div>
-                <div class="project-card">
-                    <h3>HealthIT Project</h3>
-                    <p>Contributed to digital health solutions under KDHE.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
-        <p>Let’s connect! Reach out via email or social media.</p>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <p>Email: <a href="mailto:knopholuoch@gmail.com">knopholuoch@gmail.com</a></p>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; <span id="year"></span> Knoph Oluoch Ayieko. All Rights Reserved.</p>
+        <p>© Knoph Oluoch Ayieko. All Rights Reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>

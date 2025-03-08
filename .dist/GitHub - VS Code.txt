@@ -12,15 +12,16 @@ git add .
 git commit -m "Initial portfolio setup: Added HTML, CSS, JS, and PHP files"
 	# Push to the main branch (or 'master' if that's the default branch)
 git push -u origin main
+...............................
 	# Rename the branch to main
 git branch -M main
 	Note: If you encounter a "branch does not exist" error, you can create the main branch
 	# Push to GitHub
 git push -u origin main
-
+...............................
 git push -u origin main --force
 git push origin main -f
-
+...............................
 
 
 	Enable GitHub Pages

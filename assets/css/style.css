@@ -1,180 +1,148 @@
-/* General styling */
-:root {
-    --primary-color: #003366;
-    --secondary-color: #00509d;
-    --background-light: #f4f4f4;
-    --background-dark: #1c1c1c;
-    --text-light: #ffffff;
-    --text-dark: #333333;
-    --accent-color: #ffa500;
-    --font-stack: 'Poppins', sans-serif;
-  }
-  
-  body {
-    font-family: var(--font-stack);
-    background-color: var(--background-light);
-    color: var(--text-dark);
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-  }
-  
-  /* Header Styling */
-  header {
-    background-color: var(--primary-color);
-    color: var(--text-light);
-    padding: 1.5rem 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #0056b3;
+    color: white;
+    padding: 20px 0;
     text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-  }
-  
-  /* Navigation Bar */
-  nav {
-    background-color: var(--secondary-color);
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    flex-wrap: wrap;
-  }
-  
-  nav a {
-    color: var(--text-light);
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    background-color: var(--accent-color);
-    border-radius: 5px;
-  }
-  
-  /* Light/Dark Mode Toggle */
-  .mode-switch {
-    background-color: var(--accent-color);
-    color: var(--text-light);
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  
-  .mode-switch:hover {
-    background-color: var(--primary-color);
-  }
-  
-  /* Main Content Styling */
-  main {
-    padding: 2rem;
+    font-size: 18px;
+}
+
+.hero {
     text-align: center;
-  }
-  
-  section {
-    margin-bottom: 3rem;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    color: var(--secondary-color);
-  }
-  
-  p {
+    padding: 50px 0;
+    background: #0077cc;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: white;
+}
+
+/* ABOUT PAGE STYLING */
+
+.about-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    text-align: center;
+}
+
+.about-section p {
     font-size: 1.1rem;
-    margin-bottom: 1rem;
-  }
-  
-  /* Project Section */
-  .projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-  }
-  
-  .project-card {
-    background-color: var(--background-light);
-    border: 1px solid var(--secondary-color);
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project-card:hover {
-    transform: scale(1.05);
-    transition: 0.3s ease-in-out;
-  }
-  
-  /* Contact Form */
-  form {
-    background-color: var(--background-light);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  input, textarea {
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* PROJECTS PAGE STYLING */
+
+.projects-section {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.projects-section h2 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    color: #333;
+    font-size: 1.8rem;
+}
+
+.project-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* CONTACT PAGE STYLING */
+
+.contact-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input, .contact-form textarea {
     width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid var(--secondary-color);
-    border-radius: 5px;
+    padding: 10px;
     font-size: 1rem;
-  }
-  
-  button {
-    background-color: var(--secondary-color);
-    color: var(--text-light);
-    padding: 1rem 2rem;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
     border: none;
     border-radius: 5px;
-    font-size: 1.1rem;
     cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: var(--accent-color);
-  }
-  
-  /* Footer */
-  footer {
-    background-color: var(--primary-color);
-    color: var(--text-light);
-    padding: 1.5rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    nav {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .projects {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  /* Dark Mode */
-  body.dark-mode {
-    background-color: var(--background-dark);
-    color: var(--text-light);
-  }
-  
-  .dark-mode nav, .dark-mode header, .dark-mode footer {
-    background-color: var(--background-dark);
-    color: var(--text-light);
-  }
-  
-  .dark-mode .project-card, .dark-mode form {
-    background-color: var(--secondary-color);
-    color: var(--text-light);
-  }
-  
+}
+
+.contact-form button:hover {
+    background-color: #003d82;
+}
