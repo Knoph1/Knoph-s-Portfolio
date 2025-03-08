@@ -1,0 +1,379 @@
+	# Navigate to your portfolio project directory
+cd /path/to/your/portfolio
+	# Initialize a new Git repository
+git init
+	# Add your GitHub repo link
+git remote add origin https://github.com/Knoph1/Knoph-s-Portfolio.git
+	# Verify the remote
+git remote -v
+	# Stage all changes
+git add .
+	# Commit with a descriptive message
+git commit -m "Initial portfolio setup: Added HTML, CSS, JS, and PHP files"
+	# Push to the main branch (or 'master' if that's the default branch)
+git push -u origin main
+	# Rename the branch to main
+git branch -M main
+	Note: If you encounter a "branch does not exist" error, you can create the main branch
+	# Push to GitHub
+git push -u origin main
+
+	Enable GitHub Pages
+Go to your repo on GitHub.
+Click on Settings.
+Scroll down to Pages.
+Under "Source," select main and click Save.
+	Your site will be live at:
+https://knoph1.github.io/Knoph-s-Portfolio/
+
+	Sync future updates
+	Whenever you make changes, use these commands:
+	# Stage new changes
+git add .
+	# Commit changes
+git commit -m "Describe your updates"
+	# Push to GitHub
+git push
+
+
+
+Step 1: Install Vercel CLI
+Ensure you have Node.js installed, then install Vercel globally:
+
+# Install Vercel CLI
+npm install -g vercel
+🔐 Step 2: Log in to Vercel
+Authenticate your Vercel account:
+
+vercel login
+It will ask for your email or GitHub login.
+Follow the prompts to complete authentication.
+📁 Step 3: Deploy your project to Vercel
+Navigate to your portfolio project folder in VS Code:
+
+cd /path/to/your/portfolio
+Then run:
+
+vercel
+It will ask a few questions — just press enter for default options.
+If it asks for a project name, use:
+
+Knoph-Portfolio
+Your site will be deployed, and you'll get a live preview link like:
+
+https://knoph-portfolio.vercel.app
+🌍 Step 4: Add a custom domain (knophayieko.com)
+Purchase the domain from a registrar like Namecheap or GoDaddy.
+Go to your Vercel project’s dashboard.
+Click Settings → Domains → Add Domain.
+Enter knophayieko.com and follow the DNS setup instructions.
+Update your DNS records in your domain registrar’s dashboard by adding:
+A record pointing to Vercel’s IP (provided in the setup instructions).
+CNAME record pointing to your Vercel project.
+Once verified, your portfolio will be live at:
+
+https://knophayieko.com
+✅ Step 5: Continuous deployment (GitHub integration)
+To automatically deploy changes when you push updates to GitHub:
+
+On Vercel’s dashboard, create a new project.
+Select Import from GitHub.
+Choose your repo (Knoph-s-Portfolio).
+Click Deploy.
+Now, every time you run these Git commands:
+
+git add .
+git commit -m "Updated portfolio"
+git push
+Your site will auto-update! 🌟
+
+
+
+1. Add your custom domain to Vercel
+Go to Vercel Dashboard:
+Visit Vercel and log in.
+Select your project:
+Choose Knoph-Portfolio from your projects.
+Add a custom domain:
+Go to Settings → Domains → Add Domain.
+Enter your domain name:
+
+knophayieko.com
+Copy the DNS records:
+Vercel will give you two DNS records:
+An A record pointing to Vercel’s IP address (for apex domain, e.g., knophayieko.com).
+A CNAME record for www to link it to Vercel.
+📁 2. Update DNS records on your domain registrar
+Login to your domain registrar (like GoDaddy, Namecheap, or Google Domains).
+Find DNS settings:
+Go to the Manage DNS section.
+Add the records:
+A record:
+vbnet
+
+Type: A  
+Name: @  
+Value: [Vercel's provided IP address]  
+TTL: Automatic or 1 hour
+CNAME record:
+makefile
+
+Type: CNAME  
+Name: www  
+Value: cname.vercel-dns.com  
+TTL: Automatic or 1 hour
+Save changes and wait for the DNS propagation (usually within minutes but can take up to 24 hours).
+✅ 3. Verify domain on Vercel
+Go back to Vercel Dashboard.
+Click Verify next to your custom domain.
+Once verified, your portfolio will be live at:
+
+https://knophayieko.com
+🚀 4. Set up automatic HTTPS (SSL)
+Vercel automatically provides free HTTPS.
+Ensure Force HTTPS is enabled under Settings → Domains.
+This means your site will always load securely as:
+
+https://knophayieko.com
+🏎️ 5. Test and confirm
+Clear cache in your browser.
+Visit your custom domain — check if it’s secure (HTTPS lock icon should show).
+Test both:
+https://knophayieko.com
+https://www.knophayieko.com
+
+
+...........................
+Portfolio Styles Scripts
+
+...........................
+/* 404 Page Styling */
+#not-found {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#not-found h1 {
+    font-size: 8rem;
+    font-weight: bold;
+    animation: fadeInDown 1.5s ease-in-out;
+}
+
+#not-found p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+#not-found a {
+    background-color: #f5a623;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#not-found a:hover {
+    background-color: #d48806;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Deployment Status Page Styling */
+#deployment-status {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+#deployment-status h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    animation: bounceIn 1.2s ease-in-out;
+}
+
+#deployment-status p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    line-height: 1.6;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+...........................
+/Knoph-Portfolio
+│
+├── /assets
+│   ├── /css
+│   │   ├── style.css           <-- Save the main styling code here
+│   │   ├── animations.css       <-- Save additional animations, like for 404 page
+│   ├── /js
+│   │   ├── script.js           <-- Save JavaScript code for interactivity here
+│   │   ├── form.js             <-- Save the contact form handling logic here
+│   ├── /images
+│   │   ├── [Your images/logos]
+│
+├── /pages
+│   ├── about.html              <-- About Me page
+│   ├── projects.html           <-- Projects page
+│   ├── contact.html            <-- Contact page
+│   ├── 404.html                <-- 404 Error page
+│
+├── /php
+│   ├── contact-form.php        <-- Save the PHP contact form handler here
+│
+├── /dist
+│   ├── [Bundled/minified files if needed in future]
+│
+├── /docs
+│   ├── README.md               <-- Save the portfolio README here
+│
+├── index.html                  <-- Your Home/Landing page (Greetings, Main content, etc.)
+├── deployment-status.html      <-- Status page for checking deployment
+│
+├── .gitignore                  <-- Add this to control which files Git tracks
+├── .env                        <-- For sensitive info (email creds, API keys)
+├── package.json                <-- If you add npm packages later
+│
+└── knoph-portfolio.code-workspace <-- VS Code workspace file
+...................
+Where to save the code:
+
+HTML Pages: /index.html, /pages/about.html, /pages/projects.html, /pages/contact.html, /pages/404.html, /deployment-status.html
+
+CSS: /assets/css/style.css, /assets/css/animations.css
+
+JavaScript: /assets/js/script.js, /assets/js/form.js
+
+PHP: /php/contact-form.php
+
+README: /docs/README.md
+...................
+
+.gitignore
+...................
+# Node.js dependencies (if you add npm packages later)
+node_modules/
+package-lock.json
+
+# Environment variables (for security)
+.env
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build output (in case you minify/bundle files)
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+*.cache
+
+# Compiled files
+*.class
+*.pyc
+*.pyo
+*.exe
+*.dll
+*.out
+*.app
+
+# SFTP config (if using for deployment)
+sftp-config.json
+
+# GitHub metadata
+*.lock
+*.bak
+
+# Ignore deployment status snapshots
+deployment-status.html
+
+# Ignore hidden files
+*.swp
+*.swo
+
+# Ignore IDE files (optional)
+.idea/
+*.iml
+
+# Backup and temp files
+*.bak
+*.tmp
+*.old
+
+...................
+Why these rules?
+Security: .env for sensitive info like email credentials.
+Clean commits: Ignores unnecessary system/IDE files.
+Performance: Excludes dist/ and cache directories.
+Focus: Keeps only essential project files tracked by Git.
+...................

@@ -1,0 +1,60 @@
+Assistant Lecturer CV
+
+Knoph Oluoch Ayieko
+Web Developer | Aspiring IT Lecturer
+Email: [your email] | Phone: [your number] | Location: Eldoret/Kericho, Kenya
+
+Profile Summary
+A dynamic IT graduate and certified web developer with strong expertise in back-end and front-end development. Recently completed an internship with UNES Ltd under the KDHE project, contributing to HealthIT solutions. Passionate about education, AI, and software development, I aim to transition into academia as an IT lecturer, combining technical skills with a drive for research and innovation.
+
+Education
+BSc. Information Technology — University of Kabianga (Graduated: Oct 27, 2023)
+Back-End Web Development Certification — ALX Africa (Graduated: Jan 24, 2025)
+Front-End Web Development (Ongoing) — ALX Africa (Started: Mar 3, 2025)
+Virtual Assistant Certification — ALX Africa (2024)
+Planned Studies:
+
+Postgraduate Diploma in Education (PGDE) — KSTVET (Upcoming)
+MSc. IT — Local/International (Planned)
+Professional Experience
+HealthIT Intern — University of Nairobi Enterprises and Services Ltd (UNES)
+KDHE Project (formerly HealthIT Project)
+Feb 1, 2024 – Jan 31, 2025
+
+Developed and maintained HealthIT systems, supporting the transition to the KDHE project.
+Assisted in system testing, debugging, and deploying software solutions in the healthcare sector.
+Collaborated with USAID-backed initiatives to enhance digital health ecosystems.
+Gained valuable experience in software development, cloud computing, and data management.
+Freelance Web Developer — Self-employed
+2023 – Present
+
+Designed and deployed dynamic websites for local businesses and startups using HTML, CSS, JavaScript, and Python.
+Developed an MVP for Ashker Credit Solutions in Ethiopia.
+Integrated responsive designs, optimized user interfaces, and ensured cross-platform functionality.
+Skills
+Programming: Python, JavaScript, HTML, CSS, PHP
+Web Development: React.js, Django, Node.js
+Databases: MySQL, PostgreSQL
+Research & Analysis: Data collection, AI integration, academic writing
+Soft Skills: Teaching, public speaking, teamwork, problem-solving
+Certifications
+Virtual Assistant — ALX Africa (2024)
+Professional Foundation & AiCE — ALX Africa (2024)
+Research Interests
+Artificial Intelligence in Education and Healthcare
+E-Learning Solutions for Rural Schools in Kenya
+Health Informatics and Software Development
+Awards & Achievements
+Internship extension at UNES Ltd due to exceptional performance.
+Certified Back-End Developer by ALX Africa.
+
+References
+Available upon request.
+
+.......................
+
+.......................
+
+.......................
+
+.......................

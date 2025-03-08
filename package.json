@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knoph's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/Knoph O.L Ayieko.png" alt="My Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+                <li><button id="theme-toggle">🎨🌙✨</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Hi, I'm Knoph O.L Ayieko</h1>
+        <p>Passionate about tech solutions</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+    
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Web Developer, IT Consultant and certified Virtual Assistant.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A brief description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>A brief description of the project.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact-me">
+        <h2>Contact Me</h2>
+        <p>Email: knopholuoch@gmail.com</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Knoph O.L Ayieko | All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+Now, would mind US FINALIZING the real portfolio itself:
+
+Draft out the exact intended and final realit PROJECT (portfolio) STRUCTURE for my local scripting on VS Code
+
+Generate full code scripts for every mentioned files and be in full consideration of all that has been discussed, created and end expected portfolio product, for all the pages (landing... 404), styling, animations, audio, visualizations... all that.
+
+Refine the would PORTFOLIO to be THAT PROFESSIONAL and that serious, truly displayment THE BEST EVER frontend professionalism.
+
+I do both frontend and backend wen development, plus software development in other areas... not limited to learning, add on contact like I'M A PROFESSIONAL DRIVER to, my tech' research investments, O.L foundation initiative and academic ambitious... etc. future dreams
+
+Refer to be as Knoph O.L A. each official stands for Knoph Oluoch Ayieko
+
+GitHub: Web Developer, 18 followers · 136 following, Achievement: Pull Sharkx3, Public Sponsor, Starstruck, Quickdraw, YOLO
+
+My Organization: O.L Foundation
+My location: Eldoret, Kenya
+My Postal Adress and Code: 5064-30100
+Local Timeline EAT Nairobi, Kenya
+
+Social media plaforms: https://knoph1.github.io/Portfolio/
+https://orcid.org/0009-0001-3787-513X
+in/knoph-ayieko-83464918a
+knoph_ol_a
+@knoph_ol_a
+https://github.com/Knoph1
+
+Add fully working contact form, my receiving email being knophayieko@gmail.com
+
+Full guide through the deployment of my portfolio on both GitHub pages (private GitHub repo': knophayeiko's portfolio, and Vercel using the domain knophayieko.com
+
+Refine on META DATA, SEO and OPTIMIZATION, perfect the CSS, Js and README.md then continue to Tackle GitHub pages and Vercel depolyment
