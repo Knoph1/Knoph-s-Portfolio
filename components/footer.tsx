@@ -69,8 +69,8 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <a href="mailto:info@omni-legacy.tech" className="hover:text-primary transition-colors">
-                  info@omni-legacy.tech
+                <a href="mailto:info@omni-legacy.co.ke" className="hover:text-primary transition-colors">
+                  info@omni-legacy.co.ke
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
